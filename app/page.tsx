@@ -4,7 +4,8 @@ import {
   Hero,
   SearchBar,
   CustomFilter,
-  // CarCard, ShowMore,
+  CarCard,
+  //ShowMore,
 } from "./component";
 
 export default async function Home() {
