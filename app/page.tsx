@@ -8,7 +8,7 @@ import {
   //ShowMore,
 } from "./component";
 
-export default async function Home() {
+export default async function Home({ searchParams }: any) {
   const allCars = await fetchCars({
     manufacturer: searchParams.manufacturer || "",
     year: searchParams.year || 2022,
